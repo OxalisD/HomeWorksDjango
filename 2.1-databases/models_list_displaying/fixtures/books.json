@@ -16,5 +16,23 @@
       "author": "Джордж Оруэл",
       "pub_date": "2016-12-06"
     }
+  },
+  {
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+      "name": "Скотный двор",
+      "author": "Джордж Оруэл",
+      "pub_date": "2016-09-08"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+      "name": "Чужак",
+      "author": "Стивен Кинг",
+      "pub_date": "2020-11-11"
+    }
   }
 ]
