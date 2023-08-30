@@ -22,10 +22,6 @@ def date_view(request, date):
         'puth': redirect_path}
     return render(request, template, context)
 
-# def date_view(request, date):
-#     template = 'books/books_list.html'
-#     books = Book.objects.all()
-#     paginator = Paginator(books, 10)
 
 
 
