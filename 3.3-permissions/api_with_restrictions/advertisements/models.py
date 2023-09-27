@@ -28,3 +28,7 @@ class Advertisement(models.Model):
     updated_at = models.DateTimeField(
         auto_now=True
     )
+    users = models.ManyToManyField(
+        settings.AUTH_USER_MODEL,
+        related_name='featuredes'
+    )
