@@ -8,8 +8,6 @@ class AdvertisementFilter(FilterSet):
     """Фильтры для объявлений."""
     created_at = DateFromToRangeFilter()
     updated_at = DateFromToRangeFilter()
-    status = DjangoFilterBackend()
-    creator = DjangoFilterBackend()
     # TODO: задайте требуемые фильтры
 
     class Meta:
